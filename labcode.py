@@ -206,7 +206,6 @@ class Recommender:
 		epochHit, epochNdcg = [0] * 2
 		ids = self.tstUsrs
 		num = len(ids)
-		print(len(ids))
 		testbatch = np.maximum(1, args.batch * args.sampNum * 2 // 100)
 		steps = int(np.ceil(num / testbatch))
 		for i in range(steps):
