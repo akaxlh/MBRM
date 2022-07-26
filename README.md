@@ -1,6 +1,4 @@
-# MBRM
-
-Two-path MATN
+# Two-path MATN
 
 Please unzip the ML-10M data in Datasets/MultiInt-ML10M first.
 
